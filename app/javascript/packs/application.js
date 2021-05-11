@@ -11,3 +11,11 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+
+$(".navTrigger").click(function () {
+  $(this).toggleClass("active");
+  console.log("Clicked menu");
+  $("#mainListDiv").toggleClass("show_list");
+  $("#mainListDiv").fadeIn();
+});
