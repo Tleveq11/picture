@@ -375,16 +375,17 @@ body {
 
 /* slide du porfolio*/
 
+
 .slider {
-  width: 800px;
+  width: 900px;
   overflow:  hidden;
   margin: 150px auto;
 }
 
 .slides {
 
-  width: calc(800px *5);
-  height: 400px;
+  width: calc(900px *5);
+  height: 500px;
   animation: glisse 10s infinite;
 }
 
@@ -392,42 +393,36 @@ body {
   float : left;
 }
 
-/*.slide1 {
-  background-image: url(item1.jpg);
-}*/
-/*.slide2 {
-  background-image: url(items2.jpg);
-}
-.slide3 {
-  background-image: url(items3.jpg);
-}
-.slide4 {
-  background-image: url(items4.jpg);
-}
-.slide5 {
-  background-image: url(items5.jpg);
-}*/
-
-
 @keyframes glisse {
   0% {
     transform: translateX(0);
   }
 
   25% {
-    transform: translateX(-800px);
+    transform: translateX(-900px);
   }
 
   50% {
-    transform: translateX(-1600px);
+    transform: translateX(-1800px);
   }
 
   75% {
-    transform: translateX(-2400px);
+    transform: translateX(-2700px);
   }
   100% {
-    transform: translateX(-3200px);
+    transform: translateX(-3600px);
   }
 
 }
 
+
+/*button*/
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
