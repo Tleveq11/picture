@@ -410,9 +410,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.link_wrapper{
-  position: relative;
-}
+/*.link_wrapper{
+  position: fixed;
+
+}*/
 
 a.back {
   display: block;
@@ -477,16 +478,17 @@ $sai: 'Saira Semi Condensed', sans-serif;
 }
 
 /*contact*/
-body {
+/*body {
     background-color: #444442;
     padding-top: 85px;
-}
+}*/
+
 
 h1 {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 400;
     font-size: 72px;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -567,7 +569,7 @@ textarea {
 .input-container {
     width: 650px;
     max-width: 100%;
-    margin: 20px auto 25px auto;
+    margin: 20px auto 10px auto;
 }
 
 .submit-btn {
